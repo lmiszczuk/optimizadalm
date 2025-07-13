@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LM Estudio de Arquitectura</title>
+  
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"></noscript>
+  
+  <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="style.css"></noscript>
+  
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></noscript>
+</head>
+<body>
+  <header class="container">
+    <div class="logo">
+      <picture>
+        <source srcset="img/logo.webp" type="image/webp">
+        <img src="img/logo.png" alt="Logo LM Estudio de Arquitectura">
+      </picture>
+    </div>
+    <button id="menu-btn" aria-label="Abrir menú de navegación">☰</button>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="proyectos.html"><i class="fas fa-scroll"></i> Proyectos</a></li>
+        <li><a href="servicios.html"><i class="fas fa-handshake"></i> Servicios</a></li>
+        <li><a href="sobrenosotros.html"><i class="fas fa-users"></i> Sobre Nosotros</a></li>
+        <li><a href="contacto.html"><i class="fas fa-phone"></i> Contacto</a></li>
+      </ul>
+      <button id="dark-mode-toggle" aria-label="Alternar modo oscuro">
+        <i class="fas fa-moon"></i> </button>
+    </nav>
+  </header>
+
+<main>
+    <section id="cajas-verticales" class="container">
+
+        <div class="vertical-box nuestra-identidad-style">
+            <div class="image-wrapper">
+                <picture>
+                    <source srcset="img/foto1.webp" type="image/webp">
+                    <img src="img/foto1.jpg" alt="Diseño Proyectual">
+                </picture>
+            </div>
+            <div class="text-content">
+                <a id="diseñoproyectual"></a> <h2>Diseño Proyectual</h2>
+                <p>
+                    Es el proceso donde tus ideas y necesidades se transforman en planos, modelos y soluciones detalladas, listos para ser construidos.
+                </p>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Anteproyecto y Conceptualización <i class="fas fa-plus"></i></h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Exploramos tus ideas iniciales para darles forma arquitectónica mediante bocetos, planos preliminares y volúmenes 3D.</p>
+                        <p>Definimos la viabilidad y estética general del proyecto, sentando sus bases.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Proyecto Básico y Gestión de Permisos <i class="fas fa-plus"></i></h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Desarrollamos toda la documentación esencial requerida para obtener las aprobaciones municipales y permisos.</p>
+                        <p>Aseguramos el cumplimiento de normativas, facilitando el inicio legal de tu construcción.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Proyecto Ejecutivo y Documentación Detallada <i class="fas fa-plus"></i></h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Elaboramos los planos técnicos y especificaciones constructivas con el máximo nivel de detalle.</p>
+                        <p>Esta documentación es indispensable para una ejecución precisa de la obra y la licitación con contratistas.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Visualizaciones 3D y Renders <i class="fas fa-plus"></i></h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Creamos imágenes fotorrealistas y recorridos virtuales de tu proyecto antes de su construcción.</p>
+                        <p>Te permiten visualizar el resultado final, los materiales y los ambientes con asombrosa claridad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="vertical-box nuestra-identidad-style" > 
+            <div class="image-wrapper">
+                <picture>
+                    <source srcset="img/foto5.webp" type="image/webp">
+                    <img src="img/foto5.jpg" alt="Dirección de Obra">
+                </picture>
+            </div>
+            <div class="text-content"> 
+                <a id="direccionobra"></a><h2>Dirección de Obra</h2>
+                <p>
+                    Nuestros ingenieros supervisan cada fase de la construcción para garantizar calidad, eficiencia y cumplimiento de plazos.
+                </p>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Planificación y Coordinación <i class="fas fa-plus"></i></h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Gestionamos integralmente el cronograma y recursos para una ejecución fluida y eficiente de tu proyecto.</p>
+                        <p>Aseguramos una coordinación impecable entre todos los equipos involucrados.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Control de Calidad y Seguridad <i class="fas fa-plus"></i></h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Aseguramos que cada material y proceso cumpla con los más altos estándares de calidad.</p>
+                        <p>Priorizamos siempre la seguridad en el sitio para un entorno de trabajo protegido.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Gestión de Presupuesto y Costos <i class="fas fa-plus"></i></h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Monitoreamos y optimizamos los costos de la obra de manera continua.</p>
+                        <p>Generamos ahorros significativos sin comprometer la calidad final del proyecto.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Certificaciones y Entregas <i class="fas fa-plus"></i></h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Gestionamos todas las inspecciones finales y la documentación necesaria para tu proyecto.</p>
+                        <p>Aseguramos la entrega exitosa y legal de la obra, lista para ser habitada o utilizada.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+<div class="vertical-box nuestra-identidad-style">
+    <div class="image-wrapper">
+        <picture>
+            <source srcset="img/foto3.webp" type="image/webp">
+            <img src="img/foto3.jpg" alt="Digitalización de Planos">
+        </picture>
+    </div>
+    <div class="text-content">
+        <a id="digitalplanos"></a><h2>Digitalización de Planos</h2>
+        <p>
+            Transformamos tus planos físicos en formatos digitales precisos y editables, facilitando su gestión y uso en cualquier proyecto.
+        </p>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3>Conversión a Formato CAD <i class="fas fa-plus"></i></h3>
+            </div>
+            <div class="accordion-content">
+                <p>Convertimos planos en papel o imágenes a formatos CAD (DWG, DXF) con alta precisión.</p>
+                <p>Garantizamos la fidelidad de las dimensiones y detalles originales.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3>Vectorización de Elementos <i class="fas fa-plus"></i></h3>
+            </div>
+            <div class="accordion-content">
+                <p>Vectorizamos líneas, textos, símbolos y bloques para una edición sencilla y escalable.</p>
+                <p>Optimizamos la estructura de capas para una mejor organización del archivo digital.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3>Actualización y Edición de Planos <i class="fas fa-plus"></i></h3>
+            </div>
+            <div class="accordion-content">
+                <p>Realizamos modificaciones, adiciones o eliminaciones en planos existentes según tus necesidades.</p>
+                <p>Aseguramos la coherencia y exactitud en todas las actualizaciones.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <h3>Gestión y Organización de Archivos <i class="fas fa-plus"></i></h3>
+            </div>
+            <div class="accordion-content">
+                <p>Te ayudamos a organizar y estandarizar tus archivos digitales para un acceso rápido y eficiente.</p>
+                <p>Creamos bases de datos de planos digitales para una fácil consulta y distribución.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="vertical-box nuestra-identidad-style">
+            <div class="image-wrapper">
+                <picture>
+                    <source srcset="img/foto4.webp" type="image/webp">
+                    <img src="img/foto4.jpg" alt="Diseño de Interiores">
+                </picture>
+            </div>
+            <div class="text-content">
+                <a id="diseñosint"></a><h2>Diseño de Interiores</h2>
+                <p>
+                    Creamos ambientes interiores que fusionan estética, funcionalidad y confort, reflejando tu estilo único.
+                </p>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Conceptualización de Espacios <i class="fas fa-plus"></i></h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Desarrollamos ideas innovadoras y mood boards que definen la atmósfera y el estilo de tus interiores.</p>
+                        <p>Te guiamos en la creación de una paleta de colores y texturas armoniosa.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Selección de Materiales y Mobiliario <i class="fas fa-plus"></i></h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Te asesoramos en la elección de acabados, revestimientos y piezas de mobiliario.</p>
+                        <p>Optimizamos la funcionalidad y el atractivo visual de cada elemento en tu espacio.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Diseño de Iluminación <i class="fas fa-plus"></i></h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Planificamos soluciones de iluminación que realzan la arquitectura interior.</p>
+                        <p>Creamos ambientes cálidos, funcionales y energéticamente eficientes.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Diseño de Mobiliario a Medida <i class="fas fa-plus"></i></h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Diseñamos piezas de mobiliario personalizadas que se integran perfectamente en tus espacios.</p>
+                        <p>Maximizamos la utilidad, el estilo y la coherencia estética de cada ambiente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </section>
+</main>
+  
+  <footer>
+      <div class="footer-content">
+        <div class="footer-brand">
+          <p>© 2025 LM | Estudio de Arquitectura</p>
+        </div>
+        <div class="footer-copyright">
+          <p>Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="java.js"></script> 
+
+</body>
+</html>
